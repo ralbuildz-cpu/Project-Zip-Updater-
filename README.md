@@ -1,4 +1,5 @@
 project_update_from_zip.py
+
 I built this because I kept getting zip files back from AI edits and needed a safe way to merge them into an existing project without overwriting everything by hand.
 
 It compares a zip against your current project folder, shows you what is new or different, and lets you pick which files to actually update.
