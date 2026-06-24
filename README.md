@@ -35,12 +35,14 @@ Use the arrow keys to move, Space to select, Enter to confirm. Press q to back o
 
 After updating
 It will tell you how many .bak files were made and ask if you want to delete them
-If you keep them, you can delete them later manually
+If you keep them, you can delete them later manually.
+They are realy only for manual version history if you don't have git
 If version_manager.py exists, you get a prompt to launch it
 Notes
 The script assumes the folder it lives in is your live project root (LIVE_ROOT = SCRIPT_PATH.parent)
 It works on Windows and Linux/Mac terminals
 It does not delete files that are in your live project but missing from the zip, it only shows a count
+It does NOT run git commands
 Large binary files work fine, it just compares hashes
 That's it. Copy, run, pick, done.
 
